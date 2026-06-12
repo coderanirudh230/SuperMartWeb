@@ -1,18 +1,18 @@
 const mysql = require("mysql2");
 
 const db = mysql.createConnection({
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME
+    host: "sql12.freesqldatabase.com",
+    user: "sql12830175",
+    password: "yamFEGcVeU",
+    database: "sql12830175"
 });
 
-db.connect((err) => {
-  if (err) {
-    console.log("DB connection error", err);
-  } else {
-    console.log("Database connected");
-  }
+db.connect(err => {
+    if (err) {
+        console.log("MySQL connection error:", err);
+    } else {
+        console.log("MySQL Connected");
+    }
 });
 
 module.exports = db;
