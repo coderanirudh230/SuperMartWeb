@@ -2,7 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
+  "main": "server.js",
+=======
   "main": "db.js",
+>>>>>>> 3618986810fe4c6213b3baec93f19b89173bca25
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -10,5 +14,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+<<<<<<< HEAD
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.5"
+  }
+=======
   "type": "commonjs"
+>>>>>>> 3618986810fe4c6213b3baec93f19b89173bca25
 }
