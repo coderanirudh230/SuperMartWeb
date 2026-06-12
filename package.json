@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-<<<<<<< HEAD
+
   "type": "commonjs",
   "dependencies": {
     "cors": "^2.8.6",
