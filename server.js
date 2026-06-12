@@ -12,11 +12,11 @@ app.use(express.json());
 /* ================= ROUTES ================= */
 
 // AUTH ROUTES
-const authRoutes = require("./routes/authRoutes");
+const authRoutes = require("./authRoutes");
 app.use("/api/auth", authRoutes);
 
 // CART ROUTES
-const cartRoutes = require("./routes/cartRoutes");
+const cartRoutes = require("./cartRoutes");
 app.use("/cart", cartRoutes);
 
 /* ================= PRODUCTS API ================= */
@@ -137,11 +137,11 @@ app.use(express.json());
 /* ================= ROUTES ================= */
 
 // AUTH ROUTES
-const authRoutes = require("./routes/authRoutes");
+const authRoutes = require("/authRoutes");
 app.use("/api/auth", authRoutes);
 
 // CART ROUTES
-const cartRoutes = require("./routes/cartRoutes");
+const cartRoutes = require("/cartRoutes");
 app.use("/cart", cartRoutes);
 
 /* ================= PRODUCTS API ================= */
